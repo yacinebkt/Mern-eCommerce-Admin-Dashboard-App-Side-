@@ -1,0 +1,477 @@
+.model-titels{
+    
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    
+}
+
+.brands-container{
+    padding: 08px !important;
+}
+.brands-img{
+ height: 70px;
+ margin-right: 10px;   
+ margin-bottom: 08px;  
+ position: relative; 
+}
+
+
+.brands-img img{
+    height: 100%;
+    border: 1px solid #ced4da;
+}
+   
+.logo-container{
+    width: 49%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+    position: relative;
+
+
+}
+
+.logo-container img{
+    width: 100%;
+}
+
+.logo-container span {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    background: rgb(116, 113, 113);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    height:20px;
+    width: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+    transition:all .2s ease-in-out ;
+    -webkit-transition:all .2s ease-in-out ;
+    -moz-transition:all .2s ease-in-out ;
+    -ms-transition:all .2s ease-in-out ;
+    -o-transition:all .2s ease-in-out ;
+}
+
+
+.logo-container span:hover{
+    background-color: #555;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
+.brands-img span {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    
+    background: rgb(116, 113, 113);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+
+    transition:all .2s ease-in-out ;
+    -webkit-transition:all .2s ease-in-out ;
+    -moz-transition:all .2s ease-in-out ;
+    -ms-transition:all .2s ease-in-out ;
+    -o-transition:all .2s ease-in-out ;
+}
+
+
+
+.brands-img span:hover{
+    background-color: #555;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.btnContainerTable{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tdbtnContainerTable{
+    vertical-align: middle !important;
+
+}
+
+
+.des-containerTable div {
+ 
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+
+
+/* aUTO COMPLITE*/
+.autoContainer{
+    max-height: 150px !important;
+    width: 91%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid #ced4da;
+    position: absolute;
+    left: 1rem;
+    /*top: ;*/
+    z-index: 20;
+    top: calc(1.5em + 1.75rem + 20px);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .296) ;
+
+}
+
+.autoContainer::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+
+.countriesOption{
+    
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    background-clip: padding-box;
+    border-bottom: 1px solid #ced4da;
+    /*border-radius: .25rem;*/
+    cursor: pointer;
+
+}
+
+
+.autoContainer > div:hover{
+    
+   
+    color: #444 !important;
+    background-color: #80bdff;;
+   
+}
+
+.ColBrandName{
+    position: relative;
+}
+
+.SugetionBox{
+    position:absolute;
+  /*left: 0;*/
+  
+  /*padding: .875rem .75rem;*/
+
+  left: 5rem;
+  top: 2rem;
+  z-index: 1005;
+  color: #999;
+  
+}
+
+
+.InputBrandName::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
+
+
+.ColBrandName::after {
+    position: absolute;
+    /*margin: .375rem .75rem;*/
+
+    right: 1.5rem;
+    top: 2.45rem;
+    content: attr(data-placeholder);
+    pointer-events: none;
+    opacity: 0.5 ;
+    
+}
+
+
+.textareaDesUpdate{
+    width: 100% !important;
+    max-width: 100%;
+    padding:  0.7rem 1rem;
+    padding-right: 1.8rem;
+
+    
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  
+}
+
+
+
+
+.ImgsUpdateCLabel{
+    margin-top: 1.1rem;
+    color: white;
+    background-color: #007bff;
+    height: 2.7rem;
+    width: fit-content;
+    padding: .6rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+
+.ImgsUpdateCLabel span{
+    font-size: 1rem;
+    margin-right: .5rem;
+    font-weight: 500;
+}
+
+
+
+
+.sepaRow{
+    margin: 1rem;
+    height: 4px;
+    border-radius: 1rem;
+    background-color: #f8f8f8;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: 1px solid #eee;
+}
+
+.Table-logo-container{
+    height: 85%;
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    position: relative;
+}
+
+.Table-logo-container img{
+    height: 100%;
+}
+
+.EditBrandButton{
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+    background-color:#007bff ;
+  
+    height: 25px;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 10px;
+}
+
+.EditBrandButtonTable{
+    color:#007bff ;
+    cursor: pointer;
+    margin-right: 07px;
+    font-size: 2.7rem !important;
+
+
+
+
+}
+
+.DeletBrandButtonTable{
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 2.4rem !important;
+
+}
+
+.MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+
+
+
+
+.PageHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    margin-right: 1.5rem;
+}
+
+
+/*
+.PageHeader input {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 180px;
+    min-height: 44px;
+    position: relative;
+    background-color: rgb(243, 246, 249);
+    color: rgb(70, 80, 90);
+    font-size: 1.1rem;
+    border: 1px solid rgb(229, 232, 236);
+    border-radius: 10px;
+    padding: 0 10px;
+    padding-left: 30px;
+    
+}
+.PageHeader input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.inputContainerSearch {
+    position: relative;
+}
+.searcIcon{
+    position: absolute;
+    color:#007bff ;
+
+    cursor: pointer;
+    
+    font-size: 1.7rem !important;
+    left: 4px !important;
+    top: 7px;
+
+}
+*/
+
+.AddNewBrandBtn{
+    background-color:#007bff !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+.AddNewBrandIcon{
+color: white !important;
+}
+
+
+.css-1kty9di-MuiFormLabel-root-MuiInputLabel-root {
+    /*color: #007bff !important;
+    */opacity: .9;
+    font-weight: 600 !important;
+    font-size: 1.05rem !important;
+   
+}
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 5px;
+
+    height: 3.3rem !important ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input::placeholder{
+    /* color: #007bff !important;*/
+    color:#007bff !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+ 
+ } 
+
+
+.searcIcon{
+   
+    color:#007bff;
+}
+
+.closeIcon{
+
+    color:#a3a7ac;
+    cursor: pointer;
+    
+}
+
+
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input{
+    color:#007bff !important;
+    font-weight: 500 !important;
+    font-size: 1.1rem !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list li {
+    height: 3rem !important;
+    font-size: 1.2rem;
+}
+
+.inputContainerSearch{
+    display: flex;
+    gap: 08px;
+    grid-gap: 08px;
+}
+
+.UlselectMUi{
+    width: 120px !important;
+   
+}
+
+.css-q8hpuo-MuiFormControl-root {
+
+    width: auto !important;
+}

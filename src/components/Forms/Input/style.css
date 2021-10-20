@@ -1,0 +1,9 @@
+::placeholder {
+    color: #aaa !important;
+    font-weight: 400;
+  }
+
+  input{
+      color:  #111 !important;
+      font-weight: 500;
+  }

@@ -1,0 +1,51 @@
+
+.Modal-Header{
+    background: #007bff !important;
+    color: #eee !important;
+    font-weight: 500;
+    padding: 12px 15px !important;
+    border-radius: .7rem .7rem 0 0;
+
+}
+.modal-content {
+    border-radius: 1rem 1rem .6rem .6rem !important;
+    -webkit-border-radius: 1rem 1rem .6rem .6rem !important;
+    -moz-border-radius: 1rem 1rem .6rem .6rem !important;
+    -ms-border-radius: 1rem 1rem .6rem .6rem !important;
+    -o-border-radius: 1rem 1rem .6rem .6rem !important;
+}
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    color: #fff !important;
+    font-size: 29px !important;
+    opacity: .85  !important;
+    transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+}
+
+
+.modal-header .close:hover {
+  
+    font-size: 30px !important;
+    opacity: .95 !important;
+}
+
+.modal-backdrop.show {
+    opacity: .75 !important;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #111 !important;
+
+}

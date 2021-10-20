@@ -1,0 +1,35 @@
+
+
+.category-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*mod bootstrap class*/
+.modal-header{ 
+padding: 5px 15px;
+background: #444;
+}
+
+.modal-title{
+font-size: 20px;
+color: #FFF;
+}
+
+
+.modal-footer{
+    padding: 5px 15px;
+}
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+
+}
+
+.btnContainer > button {
+    border: 0;
+    margin: 0 5px;
+    font-size: 14px;
+}
